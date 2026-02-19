@@ -1,0 +1,45 @@
+{
+  "os": "macOS-13.5-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.12",
+  "startedAt": "2026-02-19T01:08:22.302433Z",
+  "args": [
+    "-s",
+    "-vv",
+    ".",
+    "--reference_artifact",
+    "exercise_14/preprocessed_data.csv:latest",
+    "--sample_artifact",
+    "preprocessed_data.csv:latest",
+    "--ks_alpha",
+    "0.05"
+  ],
+  "program": "/Users/yeabsiraeshetu/miniconda3/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/pytest",
+  "git": {
+    "remote": "git@github.com:code-lit/genre_classification.git",
+    "commit": "dd9ba41524b14c6c9d06a22544f3595c61f4075b"
+  },
+  "email": "yeabzed19@gmail.com",
+  "root": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/check_data",
+  "host": "Yeabsiras-MacBook-Pro.local",
+  "executable": "/Users/yeabsiraeshetu/miniconda3/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/python3.13",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "175769628672"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "apple": {
+    "name": "Apple M2 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 30,
+    "memoryGb": 32,
+    "ramTotalBytes": "34359738368"
+  },
+  "writerId": "2xfehuncr0qrawouqnxunywptezps09o"
+}

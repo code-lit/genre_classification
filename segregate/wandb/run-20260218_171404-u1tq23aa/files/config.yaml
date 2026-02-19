@@ -1,0 +1,60 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            fs4rfdre26ognaioesqo3q9jxbemwy8b:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 30
+                    memoryGb: 32
+                    name: Apple M2 Max
+                    pcpuCores: 8
+                    ramTotalBytes: "34359738368"
+                args:
+                    - --input_artifact
+                    - preprocessed_data.csv:latest
+                    - --artifact_root
+                    - data
+                    - --artifact_type
+                    - segregated_data
+                    - --test_size
+                    - "0.3"
+                    - --random_state
+                    - "42"
+                    - --stratify
+                    - genre
+                codePath: segregate/run.py
+                codePathLocal: run.py
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "176882163712"
+                email: yeabzed19@gmail.com
+                executable: /Users/yeabsiraeshetu/miniconda3/envs/mlflow-fffcf19dff5f62f9470b9cf95e5eaac3bc5934ff/bin/python
+                git:
+                    commit: dd9ba41524b14c6c9d06a22544f3595c61f4075b
+                    remote: git@github.com:code-lit/genre_classification.git
+                host: Yeabsiras-MacBook-Pro.local
+                memory:
+                    total: "34359738368"
+                os: macOS-13.5-arm64-arm-64bit-Mach-O
+                program: /Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/segregate/run.py
+                python: CPython 3.13.12
+                root: /Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/segregate
+                startedAt: "2026-02-19T01:14:04.661359Z"
+                writerId: fs4rfdre26ognaioesqo3q9jxbemwy8b
+        m: []
+        python_version: 3.13.12
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "4": 3.13.12
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": darwin-arm64

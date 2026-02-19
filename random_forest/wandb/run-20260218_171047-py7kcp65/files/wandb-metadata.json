@@ -1,0 +1,50 @@
+{
+  "os": "macOS-13.5-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.12",
+  "startedAt": "2026-02-19T01:10:47.292293Z",
+  "args": [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/outputs/2026-02-18/17-06-44/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/random_forest/run.py",
+  "codePath": "random_forest/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "git@github.com:code-lit/genre_classification.git",
+    "commit": "dd9ba41524b14c6c9d06a22544f3595c61f4075b"
+  },
+  "email": "yeabzed19@gmail.com",
+  "root": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/random_forest",
+  "host": "Yeabsiras-MacBook-Pro.local",
+  "executable": "/Users/yeabsiraeshetu/miniconda3/envs/mlflow-484df64d71fdfb8fbb5f48803452d41c922ae5e3/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "176860639232"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "apple": {
+    "name": "Apple M2 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 30,
+    "memoryGb": 32,
+    "ramTotalBytes": "34359738368"
+  },
+  "writerId": "hfmkmzyxkbmzhx830kq33vw7j1hgj38i"
+}

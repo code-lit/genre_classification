@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            ysphhifp75i7horokn2801rb00sk4og6:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 30
+                    memoryGb: 32
+                    name: Apple M2 Max
+                    pcpuCores: 8
+                    ramTotalBytes: "34359738368"
+                args:
+                    - -s
+                    - -vv
+                    - .
+                    - --reference_artifact
+                    - exercise_14/preprocessed_data.csv:latest
+                    - --sample_artifact
+                    - preprocessed_data.csv:latest
+                    - --ks_alpha
+                    - "0.05"
+                cpu_count: 12
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "176963694592"
+                email: yeabzed19@gmail.com
+                executable: /Users/yeabsiraeshetu/miniconda3/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/python3.13
+                git:
+                    commit: dd9ba41524b14c6c9d06a22544f3595c61f4075b
+                    remote: git@github.com:code-lit/genre_classification.git
+                host: Yeabsiras-MacBook-Pro.local
+                memory:
+                    total: "34359738368"
+                os: macOS-13.5-arm64-arm-64bit-Mach-O
+                program: /Users/yeabsiraeshetu/miniconda3/envs/mlflow-cd65784bf8e7fffc45c3ae66d3b5f5d3b28be86d/bin/pytest
+                python: CPython 3.13.12
+                root: /Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/check_data
+                startedAt: "2026-02-19T01:13:56.507495Z"
+                writerId: ysphhifp75i7horokn2801rb00sk4og6
+        m: []
+        python_version: 3.13.12
+        t:
+            "4": 3.13.12
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": darwin-arm64

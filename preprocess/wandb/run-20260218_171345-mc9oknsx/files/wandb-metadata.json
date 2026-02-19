@@ -1,0 +1,46 @@
+{
+  "os": "macOS-13.5-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.12",
+  "startedAt": "2026-02-19T01:13:45.687491Z",
+  "args": [
+    "--input_artifact",
+    "raw_data.parquet:latest",
+    "--artifact_name",
+    "preprocessed_data.csv",
+    "--artifact_type",
+    "preprocessed_data",
+    "--artifact_description",
+    "Data with preprocessing applied"
+  ],
+  "program": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/preprocess/run.py",
+  "codePath": "preprocess/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "git@github.com:code-lit/genre_classification.git",
+    "commit": "dd9ba41524b14c6c9d06a22544f3595c61f4075b"
+  },
+  "email": "yeabzed19@gmail.com",
+  "root": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/preprocess",
+  "host": "Yeabsiras-MacBook-Pro.local",
+  "executable": "/Users/yeabsiraeshetu/miniconda3/envs/mlflow-0c0de061eeaefd8cf19694dcf7baac6a336c7f6b/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "176960806912"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "apple": {
+    "name": "Apple M2 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 30,
+    "memoryGb": 32,
+    "ramTotalBytes": "34359738368"
+  },
+  "writerId": "6705le4rc60vap0ir0p2eautpajwijnx"
+}

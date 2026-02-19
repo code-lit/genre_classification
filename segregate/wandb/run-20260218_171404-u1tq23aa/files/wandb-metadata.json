@@ -1,0 +1,50 @@
+{
+  "os": "macOS-13.5-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.12",
+  "startedAt": "2026-02-19T01:14:04.661359Z",
+  "args": [
+    "--input_artifact",
+    "preprocessed_data.csv:latest",
+    "--artifact_root",
+    "data",
+    "--artifact_type",
+    "segregated_data",
+    "--test_size",
+    "0.3",
+    "--random_state",
+    "42",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/segregate/run.py",
+  "codePath": "segregate/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "git@github.com:code-lit/genre_classification.git",
+    "commit": "dd9ba41524b14c6c9d06a22544f3595c61f4075b"
+  },
+  "email": "yeabzed19@gmail.com",
+  "root": "/Users/yeabsiraeshetu/Desktop/nd0821-c2-build-model-workflow-exercises/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/starter/genre_classification/segregate",
+  "host": "Yeabsiras-MacBook-Pro.local",
+  "executable": "/Users/yeabsiraeshetu/miniconda3/envs/mlflow-fffcf19dff5f62f9470b9cf95e5eaac3bc5934ff/bin/python",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "176882163712"
+    }
+  },
+  "memory": {
+    "total": "34359738368"
+  },
+  "apple": {
+    "name": "Apple M2 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 30,
+    "memoryGb": 32,
+    "ramTotalBytes": "34359738368"
+  },
+  "writerId": "fs4rfdre26ognaioesqo3q9jxbemwy8b"
+}
